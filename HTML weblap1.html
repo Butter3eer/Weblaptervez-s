@@ -51,25 +51,34 @@ fuggveny()
     <p><code>sum()</code> Összeadja a paraméterül kapott számokat</p>
     <h2>Vezérlési szerkezetek</h2>
     <h3>Szekvencia</h3>
-    <p>Egymást követő utasítások
+<p>Egymást követő utasítások
+<code>
+<pre>
+    x = int(input("Adjon meg egy számot: "))
+    print(x * 2)
+</pre>
+</code>
+</p>
+    <h3>Elágazás</h3>
+<p>Feltétel alapján történő utasítás végrehajtás
     <code>
         <pre>
-            x = int(input("Adjon meg egy számot: "))
-            print(x * 2)
+    if x == 3 :
+        print("alma")
+    else :
+        print("sajt")        
         </pre>
     </code>
-    </p>
-    <h3>Elágazás</h3>
-    <p>Feltétel alapján történő utasítás végrehajtás
-        <code>
-            <pre>
-        if x == 3 :
-            print("alma")
-        else :
-            print("sajt")        
-            </pre>
-        </code>
-        else ág -> akkor hajtódik végre, ha a feltétel hamis
+    else ág -> akkor hajtódik végre, ha a feltétel hamis
+</p>
+    <h3>Ciklus</h3>
+    <p>for ciklus - többször hajtja végre az utasítást
+    <code>
+<pre>
+    for i in range(5) :
+        print(i)
+</pre>
+    </code>
     </p>
 </body>
 </html>
