@@ -14,6 +14,10 @@ h2, th {
     background-color: #ff7f50;
     font-family: Arial;
     font-size: 12pt;
+    border-collapse: collapse;
+    padding: 0px;
+    margin: 10px;
+    text-align: left;
 }
 
 h1 {
@@ -35,7 +39,6 @@ img {
 }
 
 td {
-
     width: 225px;
     padding: 10px;
     text-align: center;
@@ -43,6 +46,8 @@ td {
     font-size: 12px;
 }
 
-tbody {
-    padding: 200px;
+table {
+    padding: 10px;
+    display: inline-block;
+    display: table-cell;
 }
