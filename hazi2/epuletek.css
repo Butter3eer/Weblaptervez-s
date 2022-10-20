@@ -6,7 +6,38 @@ tbody {
     background-image: linear-gradient(#ff7f50, #ffdead);
 }
 
-h2, th {
+h1, h2 {
     color: #2f4f4f;
+}
+
+h2 {
     background-color: #ff7f50;
+    font-family: Arial;
+    font-size: 12pt;
+}
+
+h1 {
+    font-family: Georgia;
+    font-size: 16pt;
+}
+
+ol {
+    font-family: Georgia;
+}
+
+li {
+    font-family: Arial;
+}
+
+img {
+    width: 160px;
+    border-radius: 8px;
+}
+
+table {
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
 }
