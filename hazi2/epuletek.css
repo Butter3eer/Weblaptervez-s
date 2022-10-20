@@ -3,10 +3,10 @@ html {
 }
 
 tbody {
-    background-image: linear-gradient( #ffdead, #ff7f50);
+    background-image: linear-gradient(#ff7f50, #ffdead);
 }
 
-th {
+h2, th {
     color: #2f4f4f;
     background-color: #ff7f50;
 }
