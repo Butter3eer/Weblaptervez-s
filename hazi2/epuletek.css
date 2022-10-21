@@ -14,8 +14,6 @@ h2, th {
     background-color: #ff7f50;
     font-family: Arial;
     font-size: 12pt;
-    border-collapse: collapse;
-    padding: 0px;
     margin: 10px;
     text-align: left;
 }
@@ -36,18 +34,18 @@ li {
 img {
     width: 160px;
     border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-
 td {
     width: 225px;
     padding: 10px;
-    text-align: center;
+    text-align: justify;
     font-family: Arial;
     font-size: 12px;
 }
 
 table {
-    padding: 10px;
-    display: inline-block;
-    display: table-cell;
+    border-spacing: 15px;
 }
