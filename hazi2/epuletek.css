@@ -16,6 +16,7 @@ h2, th {
     font-size: 12pt;
     margin: 0px;
     text-align: left;
+    
 }
 
 h1 {
@@ -23,12 +24,8 @@ h1 {
     font-size: 16pt;
 }
 
-ol {
-    font-family: Georgia;
-}
-
 li {
-    font-family: Arial;
+    font-family: Georgia;
 }
 
 img {
@@ -46,4 +43,12 @@ td {
     text-align: justify;
     font-family: Arial;
     font-size: 12px;
+}
+
+th {
+    border-bottom-style: dotted;
+}
+
+table {
+    border-spacing: 20px;
 }
