@@ -14,7 +14,7 @@ h2, th {
     background-color: #ff7f50;
     font-family: Arial;
     font-size: 12pt;
-    margin: 10px;
+    margin: 0px;
     text-align: left;
 }
 
@@ -37,6 +37,8 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-bottom: 5px dotted red;
+    border: 5px solid red;
 }
 td {
     width: 225px;
@@ -44,8 +46,4 @@ td {
     text-align: justify;
     font-family: Arial;
     font-size: 12px;
-}
-
-table {
-    border-spacing: 15px;
 }
