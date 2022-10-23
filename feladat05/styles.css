@@ -4,10 +4,10 @@ body{
     font-family: Arial, sans-serif;
 }
 
-/* menü stíluselemek */
+/* menï¿½ stï¿½luselemek */
 
 #menusor{
-    background-color: yellow;
+    background-color:#ff9c00;
 }
 #menusor span{
     padding: 0 15px;
@@ -22,16 +22,20 @@ body{
     text-decoration: underline;
 }
 #aktiv{
-    background-color: lightgray;
+    background-color: white;
 }
 
-/* táblázat stíluselemek */
+/* tï¿½blï¿½zat stï¿½luselemek */
 
 table{
     border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
 }
 table, th, td{
-    border: 0;
+    border: 1px solid #666;
 }
 th{
     padding: 1em;
@@ -40,7 +44,7 @@ td{
     padding: 0.5em;
 }
 
-/* ûrlap stíluselemek */
+/* ï¿½rlap stï¿½luselemek */
 
 .mezosor{
     padding: 8px;
@@ -69,9 +73,11 @@ td{
 .mezosor .mezo input[type='submit'],
 .mezosor .mezo input[type='reset']{
     margin: 10px;
+    width: 120px;
+    height: 30px;
 }
 
-/* egyéb stíluselemek */
+/* egyï¿½b stï¿½luselemek */
 
 #cimsor, #menusor, #tartalom{
     width: 740px;
@@ -128,3 +134,10 @@ td{
     float: right;
 }
 
+#mezosorz1 {
+    background-color: #fef6e7;
+}
+
+#mezosorz2 {
+    background-color: #fffbf4;
+}
