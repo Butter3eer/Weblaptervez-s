@@ -53,3 +53,15 @@ table {
     border-collapse: separate;
     border-spacing: 20px 0px;
 }
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
