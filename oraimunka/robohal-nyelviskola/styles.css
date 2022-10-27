@@ -50,12 +50,19 @@ a:hover{
     width:750px;
     padding-left: 50px;
     float: right;
+    background-image: url(vonal_fuggoleges.gif);
+    background-repeat: repeat-y;
 }
 table{
     border-collapse: collapse;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
 }
 th, td{
     padding: 3px 8px;
+    border: 2px dotted black;
 }
 form{
     margin: 10px;
@@ -67,4 +74,10 @@ form div{
 }
 #alja{
     clear: both;
+    font-size: 80%;
+    text-align: center;
+}
+
+input[type=text] {
+    width: 280px;
 }
