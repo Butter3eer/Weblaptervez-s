@@ -50,8 +50,8 @@ th {
 }
 
 table {
-    border-collapse: separate;
-    border-spacing: 20px 0px;
+    width: 29%;
+    float: left;
 }
 
 .column {
