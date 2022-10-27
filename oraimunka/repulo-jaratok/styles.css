@@ -1,9 +1,10 @@
 body{
     margin: 0;
     font-family: sans-serif;
+    background-image: url(ho_hatter.jpg);
 }
 
-/* fejléc (header) stíluselemek */
+/* fejlï¿½c (header) stï¿½luselemek */
 
 #header{
     width: 100%;
@@ -19,7 +20,7 @@ body{
     text-align: center;
 }
 
-/* menü (nav) stíluselemek */
+/* menï¿½ (nav) stï¿½luselemek */
 
 #nav{
     float: left;
@@ -32,7 +33,7 @@ body{
 
 #nav ul li{
     padding: 10px 0;
-
+    list-style-image: url(hopehely.png);
 }
 #nav ul li.aktiv{
     font-weight: bold;
@@ -47,7 +48,7 @@ body{
     text-decoration: underline;
 }
 
-/* táblázat stíluselemek */
+/* tï¿½blï¿½zat stï¿½luselemek */
 
 table{
     margin: 0;
@@ -55,6 +56,7 @@ table{
     border-collapse: collapse;
     background-color: #fff0f0;
     width: 500px;
+    border: 1px solid #fcc;
 }
 table caption{
     font-size: 22px;
@@ -64,7 +66,8 @@ table caption{
 }
 table th{
     padding: 5px 10px;
-    
+    background-color: #f99;
+    color: #066;
 }
 table td{
     padding: 5px;
@@ -90,19 +93,19 @@ table td{
     padding-left: 10px;
 }
 
-/* ûrlap stíluselemek */
+/* ï¿½rlap stï¿½luselemek */
 
 form fieldset{
     width: 500px;
-    padding: 5px;
-    margin: 5px;
+    padding: 10px;
+    margin: 10px;
 }
 form fieldset input[type='text']{
     width: 450px;
 }
 
 
-/* egyéb stíluselemek */
+/* egyï¿½b stï¿½luselemek */
 
 a, a:link, a:visited{
     text-decoration: none;
