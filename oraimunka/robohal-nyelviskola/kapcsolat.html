@@ -25,6 +25,7 @@
             <form>
                 <fieldset>
                     <p><div>Név:</div><div><input type="text" name="nev" value=""></div></p>
+                    <p><div>Email:</div><div><input type="email" maxlength="40"></div></p>
                     <p><div>Nyelv, ami érdekli:</div><div><select name="nyelv" size="10">
                         <option value="angol">angol</option>
                         <option value="nemet">német</option>
@@ -34,8 +35,9 @@
                         <option value="arab">arab</option>
                         <option value="svéd">svéd</option>
                         <option value="kínai">kínai</option>
+                        <option value="egyéb">egyéb</option>
                     </select></div></p>
-                    <p><div>Üzenet:</div><div><textarea name="uzenet"></textarea></div></p>
+                    <p><div>Üzenet:</div><div><textarea name="uzenet" maxlength="40" rows="5" autocomplete="on" placeholder="Ide írja az üzenetét."></textarea></div></p>
                     <p><div></div><div><input type="submit" name="ok" value="küldés"></div></p>
                 </fieldset>
             </form>
