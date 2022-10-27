@@ -9,11 +9,11 @@ table{
     color:darkblue;
     width: 29%;
     float:left;
-    word-spacing: 1px;
+    word-spacing:1px;
     border:1px solid red;
-    margin-right: 25px;
-    margin-left:25px;
-    margin-bottom: 25px;
+    margin-right: 20px;
+    margin-left:20px;
+    margin-bottom: 20px;
 }
 
 td{
@@ -27,10 +27,6 @@ td{
 }
 
 th{
-    padding-top: 10px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
     text-align: left;
     border-bottom: 2px dotted orangered;
 }
