@@ -17,8 +17,7 @@ body{
 }
 .kep_hely.galeria{
     float: left;
-    margin: 2px;
-    padding: 5px;
+    margin: 5px;
 }
 
 
@@ -79,4 +78,24 @@ body{
 #tartalom h2{
     font-size: 24px;
     text-align: center;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #66f;
+}
+
+a:hover {
+    color: #f66;
+    text-decoration: underline;
+}
+
+textarea {
+    background-color: #f6f6f6;
+    color: #66f;
+}
+
+input[type="submit"] {
+    font-weight: bold;
 }
