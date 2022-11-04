@@ -2,14 +2,16 @@
 
 body{
     color: #000000;
+    font-family: Tahoma, sans-serif;
+    background-color: #fff2e8;
 }
 
 .kep{
-    border: 0;
+    border: 2px dotted red;
     float: right;
 }
 
-/* menü hivatkozások stíluselemei */
+/* menï¿½ hivatkozï¿½sok stï¿½luselemei */
 
 #menu a,
 #menu a:link,
@@ -18,11 +20,11 @@ body{
     text-decoration: none;
 }
 #menu a:hover{
-    color: green;
-    text-decoration: none;
+    color: red;
+    text-decoration: underline;
 }
 
-/* táblázat stíluselemek */
+/* tï¿½blï¿½zat stï¿½luselemek */
 
 table{
     border-collapse: collapse;
@@ -31,14 +33,15 @@ table{
 }
 th, td{
     border: 1px dotted white;
-    padding: 5px 5px;
+    padding: 4px 20px;
 }
 td.kiemelt{
     color: red;
     font-weight: bold;
+    padding-left: 30px;
 }
 
-/* ûrlap stíluselemek */
+/* ï¿½rlap stï¿½luselemek */
 
 #ajanlat_form p{
     font-weight: bold;
@@ -48,10 +51,10 @@ td.kiemelt{
     width: 300px;
 }
 #ajanlat_form input.meret{
-    width: 50px;
+    width: 70px;
 }
 
-/* szerkezeti stíluselemek */
+/* szerkezeti stï¿½luselemek */
 
 #fejlec{
     font-family: 'Nosifer', cursive;
