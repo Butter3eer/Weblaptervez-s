@@ -61,12 +61,16 @@ body{
     font-size: 1.5em;
     text-align: center;
 }
+#fo h2{
+    font-size: 130%;
+}
 
 .kep{
     float: right;
 }
 .kep img{
     margin: 10px;
+    border: 2px solid yellow;
 }
 th{
     background-color: #060;
@@ -76,6 +80,8 @@ th{
 td{
     border: 1px dotted #060;
     padding: 5px;
+    min-width: 100px;
+    vertical-align: text-top;
 }
 
 legend{
@@ -91,4 +97,10 @@ fieldset div div{
 }
 input[type='text']{
     width: 300px;
+}
+table {
+    background-color: #fff;
+}
+textarea {
+    color: blue;
 }
