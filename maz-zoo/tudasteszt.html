@@ -36,9 +36,9 @@
                             <p>Melyik a legnagyobb élő madár?</p>
                             <div>
                                 <input type="radio" name="nagymadar" value="feherfeju" id="nagymadar_feherfeju"><label for="nagymadar_feherfeju"> fehérfejű réstisas</label><br>
-                                <input type="radio" name="nagymadar" value="albatrosz" id="nagymadar_albatrosz"> albatrosz<br>
-                                <input type="radio" name="nagymadar" value="strucc" id="nagymadar_strucc"> afrikai strucc<br>
-                                <input type="radio" name="nagymadar" value="kiralypingvin" id="nagymadar_kiralypingvin"> királypingvin<br>
+                                <input type="radio" name="nagymadar" value="albatrosz" id="nagymadar_albatrosz"><label for="nagymadar_albatrosz"> albatrosz</label><br>
+                                <input type="radio" name="nagymadar" value="strucc" id="nagymadar_strucc"><label for="nagymadar_strucc"> afrikai strucc</label><br>
+                                <input type="radio" name="nagymadar" value="kiralypingvin" id="nagymadar_kiralypingvin"><label for="nagymadar_kiralypingvin"> királypingvin</label><br>
                             </div>
                         </div>
                         <div>
@@ -55,11 +55,10 @@
                         <div>
                             <p>Melyik az egyetlen lábujjhegyen járó emlősállat?</p>
                             <div>
-                                <select name="labujjhegy">
-                                    <option value="kecske">hegyi kecske</option>
-                                    <option value="szassza">szassza</option>
-                                    <option value="antilop">jávorantilop</option>
-                                </select>
+                                <input type="radio" name="labujjhegy" value="kecske" id="labujjhegy_kecske"><label for="labujjhegy_kecske"> hegyi kecske</label><br>
+                                <input type="radio" name="labujjhegy" value="szassza" id="labujjhegy_szassza"><label for="labujjhegy_szassza"> szassza</label><br>
+                                <input type="radio" name="labujjhegy" value="antilop" id="labujjhegy_antilop"><label for="labujjhegy_antilop"> jávorantilop</label><br>
+                                <input type="radio" name="labujjhegy" value="alpakka" id="labujjhegy_alpakka"><label for="labujjhegy_alpakka"> alpakka</label><br>
                             </div>
                         </div>
                         <div>
@@ -73,7 +72,7 @@
                         </div>
                         <div>
                             <p>Melyik a kedvenc állatod és miért?</p>
-                            <div><input type="text" name="kedvenc"></div>
+                            <div><textarea name="kedvenc" id="kedvenc" cols="50" rows="6"></textarea></div>
                         </div>
                         <div>
                             <div><input type="submit" name="elkuld" value="Elküldöm"></div>
