@@ -2,40 +2,43 @@
 header{    
     background-position: center center;
     height: 350px;
-    background: url("/forras/img/bg2.jpg");
+    background-image:url(../img/bg2.jpg);
 }
 
 h1{
-    background-color: rgb(248, 248, 248, .25);
+    background-color: rgba(248, 248, 248,0.75);
     margin-top: 80px;
     padding-left: 11rem;
-    font-family: Verdana;
+    font-family: Verdana, sans-serif;
     color: #416618;
     font-weight: bold;
+    
 }
 
 h2{    
     margin-top: 10px;
-    color: #416618; 
-    border-color: #416618;
-    border-left: 3px dotted;
-    text-transform: lowercase;
+    color: #416618;
+    border-left-color: #416618;
+    border-left-width: 3px;
+    border-left-style: dotted;
+    font-variant: small-caps;
     padding: 5px 15px;
+
 }
 
 h3{    
     font-weight: bold;
-    color: #894f3b; 
-    text-align: center;   
-    font-size: 130%;
+    color: #894f3b;
+    text-align: center;
+    font-size: 1.3em;
     letter-spacing: 1px;
 }
 
 
 li{
     list-style-image: url(../img/lemon2.png);
-    margin-left: 40px;
     float: left;
+    margin-left: 40px;
 }
 
 
@@ -44,15 +47,15 @@ td,th{
 }
 
 thead>tr:first-child{    
-    letter-spacing: 2px;
-    text-transform: uppercase;    
+    letter-spacing: 2px;  
+    text-transform: uppercase;  
 }
 
-.navbar {
+.navbar{
     background-color: #fd8800;
 }
 
-p {
+p{
     text-align: justify;
     text-indent: 15px;
 }
