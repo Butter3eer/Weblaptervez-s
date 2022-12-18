@@ -13,14 +13,15 @@
 </head>
 <header>
 	<div class="container" id="kezdolap">
-		<div class="row img-fluid">
-			<img src="kepek/fejleckep.jpg">
+		<div class="row">
+			<img src="kepek/fejleckep.jpg" class="w-100 img-fluid" alt="fejleclkep">
 		</div>
 	</div>
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				<!-- Fejléc szöveg helye -->
+				<h1 class="text-success">i4ever</h1>
+				<p>Budapest legmenőbb iPhoneos bolthálózata!</p>
 			</div>
 		</div>
 	</div>
@@ -29,21 +30,24 @@
 <nav>
 	<div class="container">
 		<div class="row">
-			<ul>
+			<ul class="nav">
 				<li class="nav-item">
-					<a class="nav-link" href="index.html">Kezdőlap</a>
+					<a class="nav-link" href="index.html#kezdolap">Kezdőlap</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="index.html">Boltjaink</a>
+					<a class="nav-link" href="index.html#boltjaink">Boltjaink</a>
 				</li>			
 				<li class="nav-item">
-					<a class="nav-link" href="index.html">Népszerű készülékek</a>
+					<a class="nav-link" href="index.html#nepszeru_keszulekek">Népszerű készülékek</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="index.html">Nyitvatartás</a>
+					<a class="nav-link" href="iphone_13.html" target="_blank">Iphone 13</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="index.html#nyitvatartas">Nyitvatartás</a>
 				</li>			
 				<li class="nav-item">
-					<a class="nav-link" href="index.html">Kapcsolat</a>
+					<a class="nav-link" href="index.html#kapcsolat">Kapcsolat</a>
 				</li>
 			</ul>
 		</div>
@@ -56,19 +60,35 @@
 			<div class="col-sm-12">
 				<h3 class="text-success my-3">Apple iPhone 13 128GB Mobiltelefon</h3>
 			</div>			
-			<div class="col-sm-6">
-				Kialakítás:
-				Érintőképernyős
-				SIM kártya típusa:
-				nano-SIM és eSIM
-				Processzormagok száma:
-				6 magos
-				Processzor sebessége:
-				3.23 GHz
-				RAM:
-				4 GB
-				Belső memória mérete:
-				128 GB
+			<div class="col-sm-6 table">
+				<table class="table table-hover">
+					<tbody>
+						<tr>
+							<th scope="row">Kialakítás:</th>
+							<td><em>Érintőképernyős</em></td>
+						</tr>
+						<tr>
+							<th scope="row">SIM kártya típusa:</th>
+							<td><em>nano-SIM és eSIM</em></td>
+						</tr>
+						<tr>
+							<th scope="row">Processzormagok száma:</th>
+							<td><em>6 magos</em></td>
+						</tr>
+						<tr>
+							<th scope="row">Processzor sebessége:</th>
+							<td><em>3.23 GHz</em></td>
+						</tr>
+						<tr>
+							<th scope="row">RAM:</th>
+							<td><em>4 GB</em></td>
+						</tr>
+						<tr>
+							<th scope="row">Belső memória mérete:</th>
+							<td><em>128 GB</em></td>
+						</tr>
+					</tbody>
+				</table>
 			</div>	
 			<div class="col-sm-6">
 				<img src="./kepek/legujabb_apple-iphone-13-128gb.jpg" class="img-fluid my-3" style="width: 100%">
@@ -86,53 +106,56 @@
 				<input class="form-control" type="email" id="emailcim" name="emailcim"><br />
 				<label for="neved">Add meg az emailcímed:</label><br />
 				<input class="form-control" type="email" id="neved" name="neved"><br />
-				<label for="tipus">Milyen telefonra vágysz leginkább?</label><br />
+				<label>Milyen telefonra vágysz leginkább?</label><br />
 				<label>
-					<input class="'form-check-label" type="radio" name="hirlevel" value="apple_iphone_13">
+					<input class="form-check-label" type="radio" name="hirlevel" value="apple_iphone_13">
 					Apple iPhone 13
 				</label><br />
 				<label>
-					<input class="'form-check-label" type="radio" name="hirlevel" value="apple_iphone_11">
+					<input class="form-check-label" type="radio" name="hirlevel" value="apple_iphone_11">
 					Apple iPhone 11
 				</label><br />
 				<label class="mb-3">
-					<input class="'form-check-label" type="radio" name="hirlevel" value="apple_iphone_se_2020">
+					<input class="form-check-label" type="radio" name="hirlevel" value="apple_iphone_se_2020">
 					Apple iPhone SE 2020
 				</label><br />
 				<label class="mb-3">
-					<input class="'form-check-label" type="radio" name="hirlevel" value="apple_iphone_12_mini">
+					<input class="form-check-label" type="radio" name="hirlevel" value="apple_iphone_12_mini">
 					Apple iPhone 12 mini
 				</label><br />				
-				<input class="btn btn-outline-success mb-3" type="submit" class="mb-3" value="Regisztráció">
+				<input class="btn btn-outline-success mb-3" type="submit" value="Regisztráció">
 			</div>	
 		</div>
 	</div>
 </section>
 
+<!--
 <section>
 	<div class="container">
-		<div class="row">			
-			<div class="col-sm-12">
+		<div class="row">
+			<div class="col-sm-12" id="nyitvatartas">
 				<h3 class="text-success my-3">Nyitvatartás</h3>
-				<ol>
-					<li>Hétfő 9:00 - 20:00</li>
-					<li>Kedd 9:00 - 20:00</li>
-					<li>Szerda 9:00 - 20:00</li>
-					<li>Csütörtök 9:00 - 20:00</li>
-					<li>Péntek 9:00 - 20:00</li>
-					<li>Szombat 9:00 - 18:00</li>
-					<li>Vasárnap 9:00 - 18:00</li>
-				</ol>					
-			</div>		
+				<ul class="list-group">
+					<li class="list-group-item list-group-item-success">Hétfő 9:00 - 20:00</li>
+					<li class="list-group-item list-group-item-success">Kedd 9:00 - 20:00</li>
+					<li class="list-group-item list-group-item-success">Szerda 9:00 - 20:00</li>
+					<li class="list-group-item list-group-item-success">Csütörtök 9:00 - 20:00</li>
+					<li class="list-group-item list-group-item-success">Péntek 9:00 - 20:00</li>
+					<li class="list-group-item list-group-item-warning">Szombat 9:00 - 18:00</li>
+					<li class="list-group-item list-group-item-danger">Vasárnap 9:00 - 18:00</li>
+				</ul>				
+			</div>
 		</div>
-	</div>
+	</div>		
 </section>
+-->
+
 </body>
 <footer>
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				<!-- Az oldal készítője és dátum helye -->
+				<p><strong>Az oldal készítője:</strong> <em>Pál Csenge (2022.12.17)</em></p>
 			</div>
 		</div>
 	</div>

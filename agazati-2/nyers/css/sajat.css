@@ -10,3 +10,18 @@ html {
 }
 
 /* Innen kezd a stíluslap beállításait! */
+.teljes_szeles, button {
+	width: 100%;
+}
+
+body {
+	background-image: linear-gradient(#5f9ea0, #66ddaa);
+}
+
+p {
+	text-align: justify;
+}
+
+label {
+	font-weight: bold;
+}
